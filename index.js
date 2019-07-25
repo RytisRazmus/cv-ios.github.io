@@ -21,7 +21,7 @@ window.onresize = function (event) {
             changeLayoutFoRSmallScreen();
         }
     }
-    if (isAdded && window.innerWidth > 700) {
+    else if (isAdded && window.innerWidth > 700) {
         const images = [];
         $(".image").each(function (index, value) {
             images.push(value);
@@ -36,12 +36,10 @@ window.onresize = function (event) {
 };
 
 $(document).ready(function () {
-    console.log("screen width" + screen.width);
-    
+
     if (window.innerWidth < 700) {
         if (!isAdded) {
             changeLayoutFoRSmallScreen();
         }
     }
-    console.log("ready!");
 });
