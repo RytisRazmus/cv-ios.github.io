@@ -16,10 +16,8 @@ function changeLayoutFoRSmallScreen(){
 window.onresize = function (event) {
     console.log(screen.width);
     
-    if (window.innerWidth < 700) {
-        if (!isAdded) {
+    if (window.innerWidth < 700 && !isAdded) {
             changeLayoutFoRSmallScreen();
-        }
     }
     else if (isAdded && window.innerWidth > 700) {
         const images = [];
@@ -36,7 +34,6 @@ window.onresize = function (event) {
 };
 
 $(document).ready(function () {
-
     if (window.innerWidth < 700) {
         if (!isAdded) {
             changeLayoutFoRSmallScreen();

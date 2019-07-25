@@ -27,7 +27,6 @@
     margin: -2rem;
     border-radius: 50%;
     object-fit: cover;
-    /* transform: rotate(-90deg) */
 }
 
 .app {
@@ -61,10 +60,6 @@
     justify-content: center;
 }
 
-.footer-text{
-    /* margin: 2rem; */
-}
-
 @media screen and (max-width: 700px) {
     .flex-container {
         text-align: center;
@@ -81,7 +76,6 @@
 @media screen and (max-width: 360px) {
     .app{
         width: 12rem;
-        /* font-size: 1rem; */
     }
     .profile{
         width: 12rem;
