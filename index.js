@@ -34,9 +34,7 @@ window.onresize = function (event) {
 };
 
 $(document).ready(function () {
-    if (window.innerWidth < 700) {
-        if (!isAdded) {
+    if (window.innerWidth < 700 && !isAdded) {
             changeLayoutFoRSmallScreen();
-        }
     }
 });
