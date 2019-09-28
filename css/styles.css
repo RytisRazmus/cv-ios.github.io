@@ -80,6 +80,14 @@
       padding-left: 10%;
       padding-right: 10%;
     }
+
+}
+@media screen and (max-width: 560px) {
+.flex-container>div {
+    padding: 1rem 0;
+    font-size: 1rem;
+    flex: 1;
+}
 }
 @media screen and (max-width: 460px) {
     .app{
@@ -90,12 +98,8 @@
         height:12rem;
     }
 p{
-    
+
     margin: 1rem;
 }
-.flex-container>div {
-    padding: 1rem 0;
-    font-size: 1rem;
-    flex: 1;
-}
+
 }
