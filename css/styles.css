@@ -6,6 +6,10 @@
     display: flex;
     margin: auto;
 }
+.intro-padding {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .full{
     min-height: 100vh;
 }
@@ -48,7 +52,7 @@
 
 .black{
     filter: invert(60%);
-} 
+}
 
 .footer{
     padding: 5%;
@@ -72,6 +76,10 @@
         padding: 0 7% 0 7%;
         margin: 1rem;
     }
+    .intro-padding {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
 }
 @media screen and (max-width: 360px) {
     .app{
@@ -81,5 +89,8 @@
         width: 12rem;
         height:12rem;
     }
-   
+.intro-padding {
+  padding-left: 1%;
+  padding-right: 1%;
+}
 }
