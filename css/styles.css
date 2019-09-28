@@ -16,7 +16,6 @@
 .flex-container>div {
     padding: 3rem 0;
     font-size: 2rem;
-
     flex: 1;
 }
 .center_in {
@@ -101,7 +100,7 @@
       margin: 0rem;
   }
 .flex-container>div {
-    padding: 1rem 0;
+    padding: 3rem 0;
     font-size: 1.4rem;
     flex: 1;
 }
