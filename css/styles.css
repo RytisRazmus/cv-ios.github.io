@@ -16,10 +16,16 @@
 .flex-container>div {
     padding: 3rem 0;
     font-size: 2rem;
+
     flex: 1;
 }
-
+.center_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .center {
+
     text-align: center;
 }
  p{
