@@ -96,16 +96,11 @@
           height:12rem;
       }
   p{
-
       margin: 0rem;
   }
 .flex-container>div {
     padding: 3rem 0;
     font-size: 1.4rem;
     flex: 1;
-}
-}
-@media screen and (max-width: 460px) {
-
-
+  }
 }
