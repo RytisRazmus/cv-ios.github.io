@@ -83,6 +83,17 @@
 
 }
 @media screen and (max-width: 560px) {
+      .app{
+          width: 12rem;
+      }
+      .profile{
+          width: 12rem;
+          height:12rem;
+      }
+  p{
+
+      margin: 0rem;
+  }
 .flex-container>div {
     padding: 1rem 0;
     font-size: 1rem;
@@ -90,16 +101,6 @@
 }
 }
 @media screen and (max-width: 460px) {
-    .app{
-        width: 12rem;
-    }
-    .profile{
-        width: 12rem;
-        height:12rem;
-    }
-p{
 
-    margin: 1rem;
-}
 
 }
