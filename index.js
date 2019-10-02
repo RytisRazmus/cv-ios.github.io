@@ -15,7 +15,7 @@ function changeLayoutFoRSmallScreen(){
 
 window.onresize = function (event) {
     console.log(screen.width);
-    
+
     if (window.innerWidth < 700 && !isAdded) {
             changeLayoutFoRSmallScreen();
     }

@@ -13,6 +13,7 @@
 .full{
     min-height: 100vh;
 }
+
 .flex-container>div {
     padding: 3rem 0;
     font-size: 2rem;
@@ -67,6 +68,16 @@
     text-align: center;
     color: white;
     justify-content: center;
+}
+
+.carousel-inner{
+  /* kad nesokinetu */
+    min-height: 260px;
+
+}
+
+.carousel-item {
+  text-align: center
 }
 
 @media screen and (max-width: 700px) {
